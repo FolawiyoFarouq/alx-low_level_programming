@@ -6,7 +6,7 @@
  *
  * @a: number one.
  * @b: number two.
- * 
+ *
  * Return: Add of number one and number two.
  */
 
