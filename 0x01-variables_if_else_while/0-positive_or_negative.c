@@ -1,3 +1,8 @@
+#include <stdlib.h>
+
+#include <time.h>
+
+#include <stdio.h>
 /**
  * File: 0-positive_or_negative.c
  * Auth: Brennan D Baraban
@@ -6,13 +11,6 @@
  * Return: Always 0.
  */
 
-
-
-#include <stdlib.h>
-
-#include <time.h>
-
-#include <stdio.h>
 
 
 int main(void)
