@@ -1,10 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * string_toupper - changes lowercase to uppercase
- * @str: the string to change
- *
- * Return: the string that change for uppercase
+ * 
+ * @s: the string to change
+ * 
+ * Return: char
  *
  */
 
