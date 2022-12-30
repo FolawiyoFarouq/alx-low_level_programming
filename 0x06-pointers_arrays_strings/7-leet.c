@@ -3,9 +3,9 @@
 /**
  * leet - encodes a string
  *
- * @str: the string to encode
+ * @s: the string to encode
  *
- * Return: the encode string
+ * Return: char
  */
 
 char *leet(char *s)
