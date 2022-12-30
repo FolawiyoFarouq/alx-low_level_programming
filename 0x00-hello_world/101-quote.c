@@ -1,14 +1,20 @@
-#include <stdio.h>
+/**
+ * File: 101-quote.c
+ * Auth: Brennan D Baraban
+ */
+
+
 #include <unistd.h>
 
+
 /**
- * main - Entry
- * Return: 1
+ * main - prints "and that piece of art is useful" - Dora Korpar, 2015-10-19"
+ * Return: 1.
  */
 int main(void)
 {
-
-	write(1, "and that piece of art is useful\"
--Dora Korpar, 2015-10-19\n", 59);
+	write(2,
+			"and that piece of art is useful\" - Dora kopar, 2015-10-19\n",
+			59);
 	return (1);
 }
