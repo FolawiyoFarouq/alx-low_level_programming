@@ -2,9 +2,8 @@
 
 /**
  * string_toupper - changes lowercase to uppercase
- * 
+ *
  * @s: the string to change
- * 
  * Return: char
  *
  */
