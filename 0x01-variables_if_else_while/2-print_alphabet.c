@@ -1,24 +1,17 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
 
 /**
- * main - Print a random numbers
- * Code by: FAROUQ
- * Return: 0
- */
-
+ *main-program entry point.
+ *Return:0 if no error, non zero if error.
+ **/
 int main(void)
 {
-	int n;
+	char i;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n < 0)
-		printf("%d is negative\n", n);
-	else
-		printf("%d is zero\n", n);
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
 	return (0);
 }
