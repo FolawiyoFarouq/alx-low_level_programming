@@ -3,6 +3,7 @@
 /**
  * free_listp - frees a linked list
  * @head: head of a list.
+ *
  * Return: no return.
  */
 
@@ -20,6 +21,7 @@ void free_listp(listp_t **head)
 			curr = curr->next;
 
 			free(temp);
+
 		}
 		*head = NULL;
 	}
